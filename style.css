@@ -16,7 +16,7 @@ body{
     box-sizing: border-box;
     width: 800px;
     padding: 24px;
-    background-color:bisque;
+    background-color:#e1a84669;
     border-radius: 24px;
     margin: 48px auto;
 
@@ -35,6 +35,22 @@ main{
 section +section{
     margin-top: 24px;
 }
+
+.container {
+    justify-content: space-around;
+    display: flex;  /* Faz os itens ficarem um ao lado do outro */
+    
+}
+
+.item {
+    
+    background-color: #daae62;  /* Cor de fundo (pode trocar para a cor que preferir) */
+    padding: 10px 20px;  /* Espaçamento interno */
+    border-radius: 25px;  /* Bordas arredondadas */
+    font-size: 16px;  /* Tamanho da fonte */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  /* Sombra para dar destaque */
+}
+
 
 #about p + p{
     margin-top: 12px;
